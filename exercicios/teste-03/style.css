@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #1C61F5, #1d5adf, #1853d3, #1647b3);
+    
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-style: italic;
+    color: #F5B31B;
+    background-color: #3833DE;
+    height: 40px;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #DBA118;
+}
+
+img{
+    box-shadow: 2px 2px 2px 1px #1648b39a;
+    border-radius: 17px;
+    margin: 10px;
+    padding: 0px;
+}
