@@ -43,8 +43,8 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 section {
-    padding-top: 18vh;
-    padding-bottom: 18vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
