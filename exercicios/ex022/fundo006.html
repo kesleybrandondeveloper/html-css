@@ -11,14 +11,22 @@
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             /* Pode usar no eixo y ou no eixo x ex(repeat-y) ou (repeat-x) */
             background-size: cover;
             /* Você pode usar cover, contain, auto ou porcentagem da tela p/ definir a propriedade background-size */
+            background-attachment: fixed;
+            
+
+            /* Short Hand - background
+                color > image > position > repeat > [size] > attachment
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+            */
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
