@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafi Tabela 1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            color: aliceblue;
+            background-color: rgba(0, 0, 255, 0.699);
+            width: 400px;
+            box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.247);
+            text-align: center;
+        }
+        h1::before {
+            content: '☞';
+            position: left;
+        }
+        h1::after {
+            content: '☜';
+        }
+        table {
+            border: 5px solid red;
+            width: 400px;
+            text-align: center;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+        }
+        th, td {
+            border: 5px solid black;
+            padding: 10px;
+        }
+        .line {
+            margin: auto;
+            border-collapse: collapse;
+        }
+        .line:hover {
+            border-collapse: separate;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="line">Tabela Desafio 1</h1>
+    <table class="line">
+        <thead>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
